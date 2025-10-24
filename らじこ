@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE MORNING 埋め込み</title>
+    <style>
+        /* ページ全体を埋め込みコンテンツに合わせて調整（オプション） */
+        body {
+            display: flex;
+            justify-content: center; /* 中央寄せ */
+            align-items: center; /* 垂直方向の中央寄せ */
+            min-height: 100vh; /* 画面いっぱいの高さ */
+            margin: 0;
+            background-color: #f0f0f0; /* 背景色（オプション） */
+        }
+    </style>
+</head>
+<body>
+    <iframe title="ONE MORNING" src="https://radiko.jp/embed/events?sid=FMT&t=20251024082507&type=default" width="40%" height="288px" allow="clipboard-write *; web-share *;"></iframe>
+</body>
+</html>
